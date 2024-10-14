@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+
+    <link rel="stylesheet", href="../styles/app.css">
+    <link rel="stylesheet", href="../styles/end.css">
+</head>
+<body>
+    <div id="notification" class="notification"></div> <!-- Notification Div -->
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1>Game Over</h1>
+            <h2><span id="player1-name"></span>: <span id="player1-score"></span></h2>
+            <h2><span id="player2-name"></span>: <span id="player2-score"></span></h2>
+            <h3 id="winner"></h3>
+            <form>
+                <input 
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Your Name"
+                />
+                <button 
+                    type="submit"
+                    class="btn"
+                    id="save-score"
+                    onclick="saveHighScore(event)"
+                    disabled
+                >
+                    Save Score
+                </button>
+                <a class="btn" id="play-again-btn">Play Again</a>
+                <a class="btn" href="../index.html">Go Back</a>
+            </form>
+        </div>
+    </div>
+
+    <script src="../scripts/end.js"></script>
+</body>
+</html>
