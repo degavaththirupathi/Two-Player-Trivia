@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Trivia Game</title>
+    <link rel="stylesheet" href="../styles/app.css">
+</head>
+<body>
+    <div class="container">
+        <div id="welcome-screen" class="flex-center flex-column">
+            <h1>Welcome to the Trivia Game</h1>
+            <form id="start-form">
+                <div class="input-container">
+                    <input 
+                        type="text" 
+                        name="player1" 
+                        id="player1" 
+                        placeholder="Enter Player 1 Name" 
+                        required
+                    />
+                    <input 
+                        type="text" 
+                        name="player2" 
+                        id="player2" 
+                        placeholder="Enter Player 2 Name" 
+                        required
+                    />
+                </div>
+                <button class="btn btn-primary" id="start-game">Start Game</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../scripts/index.js"></script>
+</body>
+</html>
