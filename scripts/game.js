@@ -11,7 +11,7 @@ const elGame = document.getElementById("game");
 
 // Constants
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 10; // 6 questions: 4 easy, 2 medium, 3 hard
+const MAX_QUESTIONS = 06; // 6 questions: 2 easy, 2 medium, 2 hard
 const FEEDBACK_DELAY = 500; 
 
 // Variables
